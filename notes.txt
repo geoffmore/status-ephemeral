@@ -1,0 +1,18 @@
+For each Service, there will be one or more Components. The Service itself is a
+Component.
+
+Each Component will have 24 1-hour Statuses sorted by recent. The time frame
+used by all Components will be the same. valid Statuses are "red", "yellow", and
+"green".
+
+The status of each Component will be stored in a common database. To retrieve
+these statuses, a query will be made
+
+
+Each day will be subdivided into 24 sections. 7 days worth of data will be
+displayed
+
+https://stackoverflow.com/questions/220603/is-there-a-best-practice-for-generating-html-with-javascript
+Above looks promising to create automatically generate html from javascript
+Musache.js will be my first dep
+

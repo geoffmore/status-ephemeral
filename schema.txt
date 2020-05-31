@@ -1,0 +1,9 @@
+@timestamp - timestamp
+component.name - name of component (logs,status,portal)
+component.status
+component.children - name of dependent Components
+
+event.annotation - reason why an event happened, used in hover-text
+
+Maybe the relationships between components should be in a separate index?
+component.children

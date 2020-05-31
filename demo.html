@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo Status Page</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th></th>
+                <th>Hour 1</th>
+                <th>Hour 2</th>
+                <th>Hour 3</th>
+                <th>Hour 4</th>
+                <th>Hour 5</th>
+                <th>Hour 6</th>
+                <th>Hour 7</th>
+                <th>Hour 8</th>
+                <th>Hour 9</th>
+                <th>Hour 10</th>
+                <th>Hour 12</th>
+            </tr>
+            <tr>
+                <td>Foo</td>
+                <td><div class="status-red"></div></td>
+                <td><div class="status-green"></div></td>
+                <td><div class="status-green"></div></td>
+                <td><div class="status-green"></div></td>
+                <td><div class="status-yellow"></div></td>
+                <td><div class="status-green"></div></td>
+                <td><div class="status-green"></div></td>
+                <td><div class="status-green"></div></td>
+                <td><div class="status-green"></div></td>
+                <td><div class="status-green"></div></td>
+                <td><div class="status-red"></div></td>
+                <td><div class="status-yellow"></div></td>
+            </tr>
+            <tr>
+                <script id="component-bar" type="x-tmpl-mustache"></script>
+            </tr>
+            <tr>
+                <script src="generate-component.js"></script>
+            </tr>
+        </table>
+    </body>
+</html>

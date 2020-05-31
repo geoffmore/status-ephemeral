@@ -1,0 +1,17 @@
+{
+    "component-name": "Bar",
+    "statuses": [
+        "status-green",
+        "status-green",
+        "status-yellow",
+        "status-green",
+        "status-green",
+        "status-green",
+        "status-red",
+        "status-red",
+        "status-green",
+        "status-green",
+        "status-green",
+        "status-green"
+    ]
+}
