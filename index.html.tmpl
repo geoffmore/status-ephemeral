@@ -2,7 +2,33 @@
 <html>
     <head>
         <title>Demo Status Page</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <style>
+            .status-green{
+                height: 10px;
+                width: 10px;
+                border-radius: 50%;
+                background-color: green;
+            }
+            .status-yellow{
+                height: 10px;
+                width: 10px;
+                border-radius: 50%;
+                background-color: yellow;
+            }
+            .status-red{
+                height: 10px;
+                width: 10px;
+                border-radius: 50%;
+                background-color: red;
+            }
+            .status-gray{
+                height: 10px;
+                width: 10px;
+                border-radius: 50%;
+                background-color: gray;
+            }
+        </style>
     </head>
     <body>
         <table>
@@ -36,10 +62,10 @@
                 <td><div class="status-yellow"></div></td>
             </tr>
             <tr>
-                <script id="component-bar" type="x-tmpl-mustache"></script>
-            </tr>
-            <tr>
-                <script src="generate-component.js"></script>
+              <td>{{component-name}}</td>
+              {{#statuses}}
+              <td><div class="{{status-color}}"></div></td>
+              {{/statuses}}
             </tr>
         </table>
     </body>
