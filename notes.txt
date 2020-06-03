@@ -16,3 +16,17 @@ https://stackoverflow.com/questions/220603/is-there-a-best-practice-for-generati
 Above looks promising to create automatically generate html from javascript
 Musache.js will be my first dep
 
+Next step is getting an external stylesheet
+Next next step is getting Mustache to cache the templating where possible
+Next next next step is starting to work on a live data feed
+Next next next next step is to figure out how to keep the datafeeds synced on
+time. Maybe a function, genPage(interval) can be run on an interval and have the
+responsibility to sync data
+
+
+What if, every minute, a new, random status was added?
+In such a case, we would need to initialize an array of sieze SIZE, then remove
+the oldest entry and replace it with new
+
+Maybe there can be an array of timestamps? This would guide the new queries,
+rather than letting each Component dictacte its own time
